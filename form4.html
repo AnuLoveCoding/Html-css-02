@@ -5,29 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Form | 4 </title>
+    <style>
+        *{
+            text-align: center;
+            background-color: whitesmoke;
+            /* border: 1px solid red; */
+            color: blueviolet;
+        }
+    </style>
 </head>
 <body>
-    <h1>Sign up Form</h1>
-    <div>
+    <h1>Sign Up Form</h1>
+    <div >
         <label for="FirstName:">FirstName:</label>
-        <input type="text" id="FirstName:"required><br><br>
+        <input type="text" id="FirstName:"required placeholder="Enter Your Name"><br><br>
         <label for="LastName:">LastName:</label>
-        <input type="text" id="LastName"required><br><br>
+        <input type="text" id="LastName:" required placeholder="Enter Your lastName"><br><br>
         <label for="Email:">Email:</label>
-        <input type="email" id="Email:"required><br><br>
+        <input type="email" id="Email:"required placeholder="Enter Your email"><br><br>
         <label for="password:">password:</label>
-        <input type="password" id="password:" required>
+        <input type="password" id="password:" required placeholder="Enter Your password"><br><br>
+        <label for="Contact-Info:">Contact-Info:</label>
+        <input type="number" id="Contact-Info:" required placeholder="Enter  mobile number">
     </div>
-    <div>
+    <div >
         <h3>Select Your Gender</h3>
         <label for="Male">Male</label>
-        <input type="radio" name="gender" id="Male"><br><br>
+        <input type="radio" name="gender" id="Male">
         <label for="Female">Female</label>
-        <input type="radio" name="gender" id="Female"><br><br>
+        <input type="radio" name="gender" id="Female">
         <label for="Other">Other</label>
         <input type="radio" name="gender" id="Other">
     </div>
-
+   <br> <div>
+        <!-- <p>Country</p> -->
+        <label for="Select-Country" >Country</label>
+        <select name="" id="Select-Country" required>
+            <option value="Nepal">India</option>
+            <option value="India">Nepal</option>
+            <option value="USA">USA</option>
+            <option value="Canada">Canada</option>
+        </select><br>
+        <br>
+        <label for="date">Date:</label>
+        <input type="date" name="" id="date" required>
+        <p >Write about Yourself Below : </p>
+        <label for="Write about Yourself below"></label>
+        <textarea name="" id="Write about Yourself below" cols="30" rows="10" placeholder="write Here :)" required></textarea>
+        <br><br><input type="submit" value="Submit" style="background-color:lightgrey ;" required>
+    </div>
 
 </body>
 </html>
