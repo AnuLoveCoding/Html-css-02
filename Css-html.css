@@ -5,4 +5,7 @@
 body{
      font-family: 'Roboto', sans-serif;
      font-weight: 500,bold;
+     color: rgb(190, 196, 0);
+     background-color: whitesmoke;
+     text-align: justify;
 }
