@@ -13,3 +13,22 @@ input[type="number"]{
     background: pink;
     columns: green;
 }
+
+a[href="https://www.youtube.com/"]{
+    /* background: red;
+     */
+     color: red;
+}
+
+a[href="https://mail.google.com/mail/u/0/#inbox"]{
+    color: blue;
+}
+
+a[href="https://www.scaler.com/academy/mentee-dashboard/todos"]{
+    color: maroon;
+}
+
+a:hover{
+    color:green;
+    background: coral;
+}
