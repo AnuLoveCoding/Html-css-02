@@ -1,3 +1,15 @@
 input[type="text"]{
-    color: blueviolet;
+    color:maroon;
+    /* background-color: rgba(26, 26, 140, 0.464); */
+    background: aqua;
+}
+
+input[type="password"]{
+    background: #000;
+    color: red;
+}
+
+input[type="number"]{
+    background: pink;
+    columns: green;
 }
