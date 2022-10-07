@@ -14,7 +14,7 @@ input[type="number"]{
     columns: green;
 }
 
-a[href="https://www.youtube.com/"]{
+a[href *= "youtube"]{
     /* background: red;
      */
      color: red;
