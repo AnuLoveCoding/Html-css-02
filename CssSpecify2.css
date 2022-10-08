@@ -1,0 +1,26 @@
+
+/* Inline.style.attribute > id selector > class selector> element selector */
+
+
+div#container ul.my-songs li{
+    color: brown;
+    background: yellow;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* How to Calculate Specificity */
+/* 1,0, 1,0 */  
+/* 1010 */
+
+#container1 ol.my li{
+    background: maroon;
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/* How to Calculate Specificity */
+
+
