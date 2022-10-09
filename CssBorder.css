@@ -1,27 +1,34 @@
 h2{
+
     border: 4px ridge red;
     padding: 20px;
+    
 }
 
 img{
+
     width: 50%;
     border: 4px outset magenta;
     /* image-orientation: flip; */
     /* text-align: center; */
     margin-left: 25%;
+
 }
 
 #header ul{
+
     border: 4px solid green;
     border-top: 6px dotted maroon;
     border-radius: 4px;
 }
 
 p{
+
     border: 4px solid yellowgreen;
     border-radius: 10px;
     /* text-emphasis: circle; */
     padding: 10px;
     text-align: center;
     text-transform: uppercase;
+
 }
