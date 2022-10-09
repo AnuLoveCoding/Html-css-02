@@ -37,6 +37,8 @@ input[type="text"]{
 input[placeholder = "Enter Name"]{
     text-align: center;
     font-style: italic;
+    padding: 2px;
+    border-radius: 9px;
     /* border: 3px solid red; */
     /* text-decoration: underline; */
 }
@@ -49,6 +51,7 @@ input[type="submit"]{
     /* background: rgba(0, 0, 255, 0.54); */
     /* border-radius: 3px; */
     font-weight: bolder;
+    border-radius: 5px;
     /* font-family: Arial, Helvetica, sans-serif; */
     /* font-style: italic; */
     
